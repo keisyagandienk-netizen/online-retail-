@@ -1,11 +1,11 @@
-# 📊 Data Preprocessing - Online Retail Dataset
+# Data Preprocessing - Online Retail Dataset
 
-## 📌 Deskripsi
+## Deskripsi
 Proyek ini bertujuan untuk melakukan **data preprocessing** pada dataset *Online Retail*. Dataset ini berisi data transaksi penjualan dari sebuah perusahaan ritel online.
 
----
 
-## 📁 Dataset
+
+## Dataset
 Dataset yang digunakan:
 - Online Retail Dataset
 
@@ -19,16 +19,16 @@ Berisi informasi seperti:
 - CustomerID
 - Country
 
----
 
-## ⚙️ Tahapan Preprocessing
+
+## Tahapan Preprocessing
 
 ### 1. Data Understanding
 - Menampilkan data awal menggunakan `head()` dan `tail()`
 - Melihat struktur data dengan `info()`
 - Mengecek missing value dengan `isnull()`
 
----
+
 
 ### 2. Handling Missing Value
 Ditemukan:
@@ -39,7 +39,7 @@ Penanganan:
 - Description → diisi dengan modus
 - CustomerID → diisi dengan "Unknown"
 
----
+
 
 ### 3. Data Cleaning
 Dilakukan filtering:
